@@ -21,23 +21,23 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo leo odio, eget consectetur tellus ullamcorper et. Nam non dictum neque. Etiam quis nulla pellentesque, ultrices arcu quis, facilisis ex."
+      text="About me section is the best way to introduce yourself to the world. Click here to learn more about me."
       link="/about"
       btnText="Learn more"
     />
   ),
   3: (
     <InfoBox
-      text=" Etiam quis nulla pellentesque, ultrices arcu quis, facilisis ex."
+      text=" Projects are the best way to showcase your skills and experience. Check out some of my projects here."
       link="/projects"
       btnText="Learn more"
     />
   ),
   4: (
     <InfoBox
-      text="Nam non dictum neque. "
+      text="Contact me for any inquiries or collaborations. I am always open to new projects and opportunities."
       link="/contact"
-      btnText="Learn more"
+      btnText="Contact me"
     />
   ),
 };
