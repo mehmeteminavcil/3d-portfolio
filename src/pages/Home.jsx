@@ -5,6 +5,7 @@ import Island from "../models/Island";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
+import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   const [currentStage, setCurrentStage] = useState(1);
@@ -42,9 +43,9 @@ const Home = () => {
 
   return (
     <section className="relative w-full h-screen">
-      {/* <div className="absolute left-0 right-0 z-10 flex items-center justify-center top-28">
-        popup
-      </div> */}
+      <div className="absolute left-0 right-0 z-10 flex items-center justify-center top-28">
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
